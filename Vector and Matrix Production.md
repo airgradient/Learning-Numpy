@@ -11,7 +11,9 @@ Some concepts
 Some functions:
 
 1. `numpy.outer`
+Code:
 **numpy.outer(*a*, *b*, *out*=*None*)**
+
 Here, a and b are vectors. If not, they will be automatically flattened into the form of n x 1. The function calculates the outer production of vector a and b, then returns an `numpy.shape(a)` by `numpy.shape(b)` matrix. 
 
 2. `numpy.dot`
